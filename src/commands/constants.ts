@@ -126,11 +126,7 @@ export const DEFAULT_INLINE_EDIT_COMMANDS: InlineEditCommandSettings[] = [
   {
     name: "Rewrite as press release",
     prompt:
-      `<instruction>Transform the text below into a professional press release:
-    1. Use formal, journalistic style
-    2. Include headline and dateline
-    3. Follow inverted pyramid structure
-    Return only the press release format.</instruction>\n\n` +
+      `<instruction>Transform the text below into a professional press release:`+
       `<text>${SELECTED_TEXT_PLACEHOLDER}</text>`,
     showInContextMenu: false,
   },
